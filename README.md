@@ -16,9 +16,3 @@ Our predictor variable will be 'SEVERITYCODE' because it is used measure the sev
 
 4 : High Probability - Chance of Fatality
 
-Furthermore, because of the existence of null values in some records, the data needs to be preprocessed before any further processing.
-
-## Data Preprocessing
-In its current form, the data is not ready for analysis.  First, the non-relevant columns must be dropped, as well as the features of the relevant columns need to be converted from object data types to numerical data types.  
-After my initial overview of the data set, I have decided to focus on only four features: accident severity, weather conditions, road conditions, and light conditions.
-In order to get a good understanding of the dataset, I have checked different values in the features. The results show, the target feature is imbalance, so we use a simple statistical technique in order to balance it.
